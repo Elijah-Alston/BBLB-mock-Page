@@ -21,3 +21,39 @@ body{
 background-color: #4b3f3f;
 
 }
+
+/* start of NAV*/
+
+
+
+.nav-h1{
+    background-color: #fff;
+    text-align: center;
+    font-size:  2em ;
+  font-weight: lighter;
+    padding: 10px;
+}
+
+.nav-ul{
+display: flex;
+gap: 20px;
+background-color: #030031;
+color: white;
+justify-content:space-between;
+align-items: center;
+
+height: 50px;
+padding: 15px;
+
+
+flex
+
+}
+
+.nav-li{
+
+}
+.nau-a{
+    
+
+}
