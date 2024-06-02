@@ -1,6 +1,6 @@
 
 
-const hamburger = document.getElementById("ham-butt");
+const hamburger = document.querySelector("hamburger-button");
 const navMenu = document.querySelector("nav-ul");
 
 
