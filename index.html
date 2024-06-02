@@ -6,23 +6,36 @@
     <title>bblbmp.org</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="/images/logo.jpg">
-    <script src="scripts/index.js"></script>
+   
+    <script  defer src="scripts/index.js" href="/scripts/index.js"></script>
 </head>
+
 <body>
 
     <!--making the nav using flex box and grid for drop down  -EA-->
 <nav>
+    
     <h1 class="nav-h1">BIG BROTHER, LITTLE BROTHER, MENTORING PROGRAM INC.</h1>
-<ul class="nav-ul">
+    <div class="nav-wrapper">
+<ul class="nav-ul" id="nav-ul">
 <li class="nav-li"><a class="nav-a" href="about.html">About Us</a></li>
 <li class="nav-li"><a class="nav-a" href="">News & Events</a></li>
 <li class="nav-li"><a class="nav-a" href="">Kinships</a></li>
 <li class="nav-li"><a class="nav-a" href="">Contact</a></li>
 <li class="nav-li"><a class="nav-a" href="">MyKinship Portal</a></li>
 <li class="nav-li"><a class="nav-a" href="">Join BBLB</a></li>
-
 </ul>
+
+<button class="hamburger-button" id="ham-butt"onclick="menu()"> <span class="bar"></span>  <span class="bar"></span>  <span class="bar"></span>  </button>
+</div>
 </nav>
+
+<div class="hero-wrapper">
+
+<img src="/images/Baoba 1.jpg" class="hero-img">
+
+
+</div>
 
 
 <div class="space"> </div>
@@ -33,7 +46,7 @@
 <!--STart of footer using grid and list elements EA -->
 <footer>
     <div class="footer-wrapper">
-<img src="images/logo.jpg" alt="website logo a shield with four symbols">
+<img src="images/logo.jpg" alt="website logo a shield with four symbols" class="footer-img">
 
 <section class="footer-section">
     <h1 class="footer-h1"> Navigation</h1>
@@ -47,8 +60,16 @@
     </ul>
 </section>
 
+
 <section class="footer-section">
     <h1 class="footer-h1"> Stay connected</h1>
+    <ul class="footer-ul">
+        <li class="footer-li"><a href="" class="footer-a">Facebook</a></li>
+        <li class="footer-li"><a href="" class="footer-a">Twitter</a></li>
+        <li class="footer-li"><a href="" class="footer-a">Instagram</a></li>
+        <li class="footer-li"><a href="" class="footer-a">youtube</a></li>
+        
+    </ul>
 </section>
 
 
@@ -58,4 +79,5 @@
 <p class="footer-p"> 
     © 2023 by Big Brother Little Brother Mentoring Program, Inc.</p>
 </footer>
+
 </html>
