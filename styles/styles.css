@@ -85,7 +85,7 @@ flex-direction: column;
 left: -100%;
 width: 75%;
 top: 70px;
-transition: 1s ease-in-out ;
+transition: 3.5s ease-in-out ;
 background-color: #171e3e;
 
 
@@ -145,7 +145,7 @@ padding: 5px;
 
     left: 0%;
    width: 100%; 
-   height: 80vh;
+   height: 75vh;
 }
 
 
