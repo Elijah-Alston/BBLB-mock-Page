@@ -61,6 +61,8 @@ align-items: center;
 height: 20px;
 padding: 25px;
 
+margin-top:50px;
+
 }
 
 .nav-li{
@@ -115,7 +117,7 @@ left: -100%;
 width: 75%;
 top: 70px;
 transition: .7s ease-in ;
-background-color: #171e3e;
+background-color: #3951bb;
 
 
 
